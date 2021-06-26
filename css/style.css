@@ -125,6 +125,11 @@
     display: flex;
     flex-direction: column;
 }
+.catalog_card_opacity{
+    background: #ffffff48;
+    width: 100%;
+    height: 100%;
+}
 .card_text{
     font-size: 13px;
     line-height: 16px;
