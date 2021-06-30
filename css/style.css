@@ -124,12 +124,55 @@
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
+    
 }
-.catalog_card_opacity{
-    background: #ffffff48;
-    width: 100%;
+.catalog_card_img{
+    width: 360px;
+    height: 422px;
+    position: relative;
+}
+.catalog_card_img:hover{
+    transition: 0.5s;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+
+}
+.catalog_card:hover {
+    transition: 0.5s;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+  }
+  .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 100%;
-}
+    background-color: rgba(58, 56, 56, 0.83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .catalog_card:hover .overlay {
+    opacity: 1;
+  }
+  .btn_cart{
+      padding: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      line-height: 17px;
+      color: #FFFFFF;
+      width: 138px;
+      height: 43px;
+      border: 1px solid #FFFFFF;
+      background: none;
+  }
+  .btn_cart:hover{
+      cursor: pointer;
+  }
 .card_text{
     font-size: 13px;
     line-height: 16px;
@@ -285,3 +328,71 @@
 .block_socials{
     display: flex;
 }
+.intro_cat{
+    height: 148px;
+    background-color: #F8F3F4;
+    margin-bottom: 51px;
+}
+.intro_cat_block{
+    display: flex;
+    justify-content: space-between;
+
+}
+.intro_cat_text{
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    padding-top: 59px;
+}
+.cat_breadcrumbs{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 59px;
+}
+.breadcrumbs{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.breadcrumbs-item{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+}
+.breadcrumbs-item:not(:last-child):after {
+    content: "/";
+    margin-left: 5px;
+  }
+.breadcrumbs-link{
+    color: #636363;
+    text-decoration: none;
+  }
+  
+  .breadcrumbs-link:not(span):hover {
+    text-decoration: underline;
+  }
+  
+  .breadcrumbs-link.current {
+    color: #F16D7F;
+  }
+  .details {
+    text-decoration: none;
+  }
+  
+  details>summary {
+    list-style: none;
+  }
+  details summary::-webkit-details-marker {
+    display: none
+  }
+  
+  .test {
+    border-left: 5px solid red;
+    margin-bottom: 5px;
+  }
+  
+  .list_style {
+    list-style: none;
+
+  }
