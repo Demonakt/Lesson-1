@@ -36,6 +36,25 @@
     background: #F1E4E6;
     height: 764px;
 }
+.intro__product{
+
+    display: flex;
+    justify-content: space-between;
+    background: #F7F7F7;
+    height: 777px;
+    align-items: center;
+    
+}
+.link__arrow{
+    text-decoration: none;
+    background: rgba(42, 42, 42, 0.15);
+    width: 47px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .intro_text{
     height: 100%;
     display: flex;
@@ -335,6 +354,10 @@
     background-color: #F8F3F4;
     margin-bottom: 51px;
 }
+.intro_cat__product{
+    height: 148px;
+    background-color: #F8F3F4;
+}
 .intro_cat_block{
     display: flex;
     justify-content: space-between;
@@ -531,16 +554,78 @@ margin-bottom: 5px;
     justify-content: space-between;
     min-width: 300px;
     }
-    .rewind{
+.rewind{
       display: flex;
       justify-content: center;
       margin: 50px 0 100px 0;
     }
-    .link_decoration_rewind{
+.link_decoration_rewind{
     text-decoration: none;
     color: #000000;
     padding: 12px 30px;
     }
-    .link_decoration_rewind:hover{
+.link_decoration_rewind:hover{
       color:red;
     }
+.card__info{
+    border: 1px solid #EAEAEA;
+    height: 600px;
+    margin-top: -110px ;
+    background: #FFFFFF;
+}
+.intro__product__img{
+    width: 90%;
+    margin-top: -100px;
+}
+
+.card__info h3{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    text-align: center;
+    padding: 64px 0 12px 0;
+}
+.card__info__block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card__info h2{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+    text-align: center;
+    margin-bottom: 48px;
+
+}
+.card__info__border{
+    width: 66px;
+    border-bottom: 3px solid #EF5B70;
+    margin-bottom: 12px;
+}
+.card__info p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+    width: 555px;
+    margin-bottom: 33px;
+}
+.card__info span{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #EF5B70;
+}
+.border__product{
+    width: 641px;
+    border-bottom: 1px solid #EAEAEA;
+    margin: 65px;
+}
