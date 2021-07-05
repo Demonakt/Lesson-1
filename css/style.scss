@@ -1,0 +1,25 @@
+@import "base/nullification";
+@import "base/header";
+@import "base/intro";
+@import "base/category";
+@import "base/cards";
+@import "base/promo";
+@import "base/subscripe";
+@import "base/footer";
+@import "base/cart";
+
+
+.heading__text{
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 96px;
+    color: #222222;
+}
+.heading__text__p{
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+    text-align: center;
+    margin-bottom: 48px;
+}

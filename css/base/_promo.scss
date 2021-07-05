@@ -1,0 +1,27 @@
+.promo{
+    background-color: #222224;
+    height: 341px;
+    &__card{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        &__item{
+            text-align: center;
+            max-width: 360px;
+            &__heading{
+                font-size: 20px;
+                line-height: 24px;
+                color: #FBFBFB;
+                margin: 28px 0 16px 0;
+            }
+            &__p{
+                font-weight: 300;
+                font-size: 13.972px;
+                line-height: 17px;
+                text-align: center;
+                color: #FBFBFB;
+            }
+        }
+    }
+}
