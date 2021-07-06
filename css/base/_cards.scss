@@ -184,11 +184,11 @@
         flex-direction: column;
         &__filter{
             display: flex;
-            left: 40%;
+            left: 37%;
             position: absolute;
             background: #FFFFFF;
             &__check{
-                width: 130px;
+                width: 140px;
                 font-size: 14px;
                 line-height: 17px;
                 color: #6F6E6E;
@@ -214,6 +214,7 @@
                 font-size: 16px;
                 line-height: 19px;
                 background: #FFFFFF;
+                margin-top: 20px;
             }
             &__button:hover{
                 cursor: pointer;
@@ -241,4 +242,103 @@
   }
   details > summary {
     list-style: none;
+    padding: 8px;
   }
+  .filter{
+      display: flex;
+      height: 100px;
+      align-items: center;
+      &__block{
+          width: 340px;
+          padding: 12px;
+          position: absolute;
+          z-index: 1;
+          background: #FFFFFF;
+          &__border{
+              border-left: 5px solid #EF5B70;
+              padding-right: 11px;
+              height: 37px;
+              display: flex;
+              align-items: center;
+              padding-left: 11px;
+          }
+          &__border:not(:last-child){
+              margin-bottom: 18px;
+          }
+      }
+      &__block a{
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 17px;
+        color: #6F6E6E;
+      }
+      &__block[open]{
+        box-shadow: 0 0 15px 10px (rgb(228, 228, 228));
+        transition: 1s;
+      }
+      &__block li{
+          margin-bottom: 11px;
+          padding-left: 12px;
+      }
+      &__block ul{
+          list-style-type: none;
+      }
+      &__block summary{
+        margin-bottom: 16px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+      }
+      &__block summary:hover{
+          cursor: pointer;
+      }
+      &__block summary:open{
+          color: red;
+      }
+      &__checkbox{
+          display: flex;
+          align-items: bottom;
+          margin-top: 17px;
+          justify-content: center;
+          width: 100%;
+          
+          &__item1{
+            margin-right: 250px;
+            padding: 5px;
+          }
+          &__item2{
+            margin-left: 0;
+            padding: 5px;
+          }
+          &__item3{
+            margin-left: 250px;
+            padding: 5px;
+          }
+          &__item3 [open]{
+              position: 0;
+          }             
+          &__frame{
+            display: flex;
+            flex-direction: column;
+            padding: 8px;
+            background: #FFFFFF;
+            z-index: 1;
+            box-shadow: 0 0 15px 10px (rgb(228, 228, 228));
+            transition: 1s;
+          }
+      
+
+      }
+      &__checkbox details{
+        display: flex;
+        position: absolute;
+      }
+      &__checkbox label{
+          position: relative;
+      }
+      &__checkbox:hover{
+          cursor: pointer;
+      }
+
+    }
