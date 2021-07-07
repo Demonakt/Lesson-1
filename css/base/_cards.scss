@@ -293,9 +293,6 @@
       &__block summary:hover{
           cursor: pointer;
       }
-      &__block summary:open{
-          color: red;
-      }
       &__checkbox{
           display: flex;
           align-items: bottom;
@@ -308,16 +305,14 @@
             padding: 5px;
           }
           &__item2{
-            margin-left: 0;
+            margin-left: 50px;
             padding: 5px;
           }
           &__item3{
-            margin-left: 250px;
+            margin-left: 300px;
             padding: 5px;
           }
-          &__item3 [open]{
-              position: 0;
-          }             
+                    
           &__frame{
             display: flex;
             flex-direction: column;
@@ -341,4 +336,7 @@
           cursor: pointer;
       }
 
+    }
+    .filter [open]>summary {
+        color: #EF5B70;
     }

@@ -661,10 +661,6 @@ details > summary {
   cursor: pointer;
 }
 
-.filter__block summary:open {
-  color: red;
-}
-
 .filter__checkbox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -685,17 +681,13 @@ details > summary {
 }
 
 .filter__checkbox__item2 {
-  margin-left: 0;
+  margin-left: 50px;
   padding: 5px;
 }
 
 .filter__checkbox__item3 {
-  margin-left: 250px;
+  margin-left: 300px;
   padding: 5px;
-}
-
-.filter__checkbox__item3 [open] {
-  position: 0;
 }
 
 .filter__checkbox__frame {
@@ -728,6 +720,10 @@ details > summary {
 
 .filter__checkbox:hover {
   cursor: pointer;
+}
+
+.filter [open] > summary {
+  color: #EF5B70;
 }
 
 .promo {
