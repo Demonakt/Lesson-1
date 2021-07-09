@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Registration</title>
+    <script src="https://kit.fontawesome.com/1e88dc12be.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -14,19 +15,139 @@
 
     <header class="header">
         <div class="container">
-            <nav class="header_logo">
+            <nav class="header__logo">
                 <div>
-                    <a class="link" href="index.html"><img class="logo" src="img/logo.png" alt=""></a>
-                    <img class="logo" src="img/search.svg" alt="">
+                    <a class="header__logo__link" href="index.html"><img class="header__logo__img" src="img/logo.png"
+                            alt=""></a>
+                    <img class="header__logo__img" src="img/search.svg" alt="">
                 </div>
                 <div>
-                    <img class="header_item" src="img/burger.svg" alt="">
-                    <a class="link header_item" href="registration.html"><img class="header_item" src="img/cabinet.svg"
-                            alt=""></a>
-                    <a class="link header_item" href="cart.html"><img class="header_item" src="img/cart.svg" alt=""></a>
+
+                    <img class="header__logo__item" src="img/burger.svg" alt="">
+                    <a class="header__logo__link header__logo__item" href="registration.html"><img
+                            class="header__logo__item" src="img/cabinet.svg" alt=""></a>
+                    <a class="header__logo__link header__logo__item" href="cart.html"><img class="header__logo__item"
+                            src="img/cart.svg" alt=""></a>
                 </div>
             </nav>
 
 
         </div>
     </header>
+    <section class="intro__cat">
+        <div class="container">
+            <div class="intro__cat__block">
+                <h2 class="intro__cat__block__text">REGISTRATION </h2>
+            </div>
+        </div>
+    </section>
+    <main class="registration container">
+        <div class="registration__input">
+            <p>Your Name</p>
+            <input class="registration__input__form" type="text" placeholder="First Name">
+            <input class="registration__input__form" type="text" placeholder="Last Name">
+            <div class="registration__input__sex">
+                <input type="radio" name="sex">Male
+                <input type="radio" name="sex">Female
+            </div>
+            <p>Login details</p>
+            <input class="registration__input__form" type="email" placeholder="Email">
+            <input class="registration__input__form" type="password" placeholder="Password">
+            <p><span>Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase
+                    letters</span></p>
+            <button>
+                <p>JOIN NOW </p>
+                <i class="fas fa-long-arrow-alt-right"></i>
+            </button>
+        </div>
+        <div class="registration__text">
+            <h3>LOYALTY HAS ITS PERKS</h3>
+            <p>Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as
+                soon as you join:</p>
+            <ul>
+                <li>15% off welcome offer</li>
+                <li>Free shipping, returns and exchanges on all orders </li>
+                <li>$10 off a purchase on your birthday</li>
+                <li>Early access to products</li>
+                <li>Exclusive offers & rewards</li>
+            </ul>
+        </div>
+    </main>
+
+
+    <section class="promo">
+        <div class="container promo__card">
+            <article class=" promo__card__item">
+                <img src="img/bottom_pic1.svg" alt="img">
+                <h4 class="promo__card__item__heading">Free Delivery</h4>
+                <p class="promo__card__item__p">Worldwide delivery on all. Authorit tively morph next-generation innov
+                    tion with
+                    extensive models.
+                </p>
+            </article>
+            <article class=" promo__card__item">
+                <img src="img/bottom_pic2.svg" alt="img">
+                <h4 class="promo__card__item__heading">Sales & discounts</h4>
+                <p class="promo__card__item__p">Worldwide delivery on all. Authorit tively morph next-generation innov
+                    tion with
+                    extensive models.
+                </p>
+            </article>
+            <article class=" promo__card__item">
+                <img src="img/bottom_pic3.svg" alt="img">
+                <h4 class="promo__card__item__heading">Quality assurance</h4>
+                <p class="promo__card__item__p">Worldwide delivery on all. Authorit tively morph next-generation innov
+                    tion with
+                    extensive models.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+    <footer class="subscripe">
+        <section class="subscripe__opacity">
+            <div class="container subscripe__block">
+                <div class="subscripe__block__comment">
+                    <img class="subscripe__block__comment__img" src="img/face_footer.png" alt="img">
+                    <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
+                </div>
+                <div class="subscripe__block__right">
+                    <h4 style="margin-bottom: 32px;"><span style="font-size:24px;">SUBSCRIBE </span><br>
+                        FOR OUR NEWLETTER AND PROMOTION</h4>
+                    <div>
+                        <form class="subscripe__block__right__form" action="/" method="post">
+                            <input class="subscripe__block__right__form__input" type="email" name="email"
+                                placeholder="    Enter your email">
+                            <input class="subscripe__block__right__form__submit btn_cart" type="submit"
+                                value="Subscribe">
+                            <div class="subscripe__block__right__form__border_right"></div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="container footer__block">
+                <p style="color: #FBFBFB;font-size: 16px; ">© 2021 Brand All Rights Reserved.</p>
+                <div class="footer__block__socials">
+                    <div class="footer__block__socials__link"><a class="link" href="https://ru-ru.facebook.com/"
+                            target="_blank"><img src="img/facebook.svg" alt="img"></a>
+                    </div>
+                    <div class="footer__block__socials__link"><a class="link" href="https://www.instagram.com/"
+                            target="_blank"><img src="img/instagram.svg" alt="img"></a>
+                    </div>
+                    <div class="footer__block__socials__link"><a class="link" href="https://www.pinterest.ru/"
+                            target="_blank"><img src="img/Vector.svg" alt="img"></a></div>
+                    <div class="footer__block__socials__link"><a class="link" href="https://twitter.com/"
+                            target="_blank"><img src="img/twiter.svg" alt="img"></a></div>
+                </div>
+            </div>
+
+        </section>
+
+    </footer>
+</body>
