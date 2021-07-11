@@ -65,7 +65,7 @@
 
 .animate:hover{
     display: inline-block;
-    animation: rubberBand; /* referring directly to the animation's @keyframe declaration */
+    animation: rubberBand; 
     animation-duration: 2s;
     box-shadow: 0 0 15px 5px #F16D7F;
 }
