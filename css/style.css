@@ -191,15 +191,18 @@
   position: relative;
 }
 
-.cat__card__item {
-  width: 100%;
-  height: 260px;
-}
-
-.cat__card__item:hover .cat__card__item__overlay {
+.cat__card:hover .cat__card__item__overlay {
   opacity: 1;
   -webkit-transition: 1s;
   transition: 1s;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.cat__card__item {
+  width: 100%;
+  height: 260px;
+  position: absolute;
 }
 
 .cat__card__item__img {
@@ -258,7 +261,7 @@
           animation: change-color 2s infinite alternate;
 }
 
-.animate:hover {
+.cat__card:hover .animate {
   display: inline-block;
   -webkit-animation: rubberBand;
           animation: rubberBand;
@@ -420,7 +423,7 @@
   color: #F26376;
 }
 
-.catalog__card__button:hover {
+.catalog__card__animate:hover .catalog__card__button {
   -webkit-transform: rotateX(360deg);
           transform: rotateX(360deg);
   -webkit-transition: 1s;

@@ -102,7 +102,7 @@
                     }
                 }          
             }
-            &__button:hover{
+            &__animate:hover .catalog__card__button{
                 transform: rotateX(360deg);
                 transition: 1s;
                 
