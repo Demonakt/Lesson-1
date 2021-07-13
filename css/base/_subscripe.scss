@@ -17,14 +17,14 @@
             line-height: 24px;
             text-align: center;
             color: #222224;
-            margin-top: 180px;
+            margin-top: 54px;
             &__img{
                 margin-bottom: 30px;
             }
         }
         &__right{
             text-align: center;
-            margin-top: 223px;
+            margin-top: 59px;
             width: 360px;
             &__form{
                 display: flex;
@@ -61,4 +61,34 @@
             }
         }
     }
+}
+@media (max-width:375px){
+        .subscripe{
+            height: 550px;
+            &__block{
+                display: flex;
+                flex-direction: column;
+                &__right__form{
+                    width: 320px;
+                    margin-left: 15px;
+                }
+            }
+        }
+
+}
+@media (max-width:768px){
+    .subscripe{
+        height: 550px;
+        &__block{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &__right__form{
+                width: 320px;
+                margin-left: 15px;
+            }
+        }
+    }
+
 }

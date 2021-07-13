@@ -6,10 +6,9 @@
             display: flex;
             justify-content: flex-end;
             align-items: center;
-            
             background-image: url(../img/man-intro.png);
             background-repeat: no-repeat;
-            background-position: -208px bottom;        
+            background-position: -208px bottom;     
             &__style{
                 max-width: 377px;
                 border-left: 12px solid #F16D7F;
@@ -92,4 +91,42 @@
             width: 90%;
             margin-top: -100px;
         }
+}
+
+@media (max-width: 1024px){
+    .intro__block{
+    background-position: -150px bottom;   
+    background-size: contain;
+    background-size: 75%;   
+    }
+
+}
+
+@media (max-width: 768px){
+    .intro__block{
+        background-position: -50px bottom;   
+        background-size: contain;
+        background-size: 50%;   
+        }
+        .intro{
+            height: 368px;
+        }
+
+}
+
+@media (max-width: 375px){
+    
+    .intro__block{
+        background-image: none;
+    }
+    .intro__cat{
+        height: auto;
+    }
+    .intro__cat__block{
+        flex-direction: column;
+        align-items: center;
+        &__breadcrumbs{
+            margin-bottom: 46px;
+        }
+    }
 }

@@ -8,3 +8,12 @@
     margin: 0 auto;
     padding: 0 10px;
 }
+
+@media (max-width:375px){
+    .container{
+        margin: 0;
+        padding: 5px;
+        max-width: 375px;
+        width: 100%;
+    }
+}

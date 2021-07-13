@@ -1,8 +1,12 @@
 .header{
     background-color: #222222;
+    width: 100%;
     &__logo{
         display: flex;
         justify-content: space-between;
+        &_right{
+            margin-right: 15px;
+        }
         &__img{
             margin: 18px 0;
             margin-right: 41px;
@@ -17,5 +21,13 @@
         &__item:not(:last-child) {
             margin-right: 33px;
         }
+    }
+}
+@media (max-width: 375px){
+    .header__logo__link:nth-child(2){
+        display: none; 
+    }
+    .header__logo__link:nth-child(3){
+        display: none; 
     }
 }

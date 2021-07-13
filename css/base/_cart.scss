@@ -152,3 +152,33 @@
 }
 input[type="number"]::-webkit-outer-spin-button, 
 input[type="number"]::-webkit-inner-spin-button {-webkit-appearance: none;}
+
+@media(max-width:768px){
+    .cart{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cart__form{
+        display: flex;
+        justify-content: space-between;
+    }
+    .cart__form__input{
+        box-sizing: border-box;
+        margin-right: 10px;
+    }
+    .cart__form__input h2{
+        margin-top: 64px;
+    }
+    .cart__form__result{
+        box-sizing: border-box;
+        margin-top: 103px;
+        height: 100%;
+    }
+    .cart__cards__item{
+        width: 734px;
+        height: 100%;
+    }
+    .cart__cards__button{
+        width: 734px;
+    }
+}
