@@ -380,10 +380,29 @@
 
     }
     @media(max-width:375px){
+        .catalog{
+            width: 97%;
+        }
         .filter__block>summary span{
             display: none;
         }
         .filter__block{
             width: 50px;
         }
+        .card__info__block__border__custom__filter{
+            left: 2%;
+            width: 105%;
+        }
+        .card__info__block__border__custom__filter__check{
+            padding: 0;
+        }
+        details > summary {
+            padding: 0;
+    }
+    .card__info p{
+        width: 100%;
+    }
+    .card__info__block__border__product{
+        width: 100%;
+    }
     }

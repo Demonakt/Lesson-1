@@ -108,7 +108,9 @@
     
 }
 @media(max-width:375px){
-
+    .category{
+        width: 95%;
+    }
     .cat{
         display: flex;
         flex-direction: column;
