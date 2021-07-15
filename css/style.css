@@ -705,13 +705,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  left: 37%;
+  left: 40%;
   position: absolute;
   background: #FFFFFF;
 }
 
 .card__info__block__border__custom__filter__check {
-  width: 140px;
+  width: 145px;
   font-size: 14px;
   line-height: 17px;
   color: #6F6E6E;
@@ -722,7 +722,15 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 5px;
+  padding: 0;
+}
+
+.card__info__block__border__custom__filter summary {
+  padding: 0;
+}
+
+.card__info__block__border__custom__filter summary > i {
+  margin-left: 0;
 }
 
 .card__info__block__border__custom__cart {
@@ -943,6 +951,9 @@ details > summary {
   .filter__checkbox__item3 {
     margin-left: 107%;
     padding: 5px;
+  }
+  .card__info__block__border__custom__filter {
+    left: 28%;
   }
 }
 

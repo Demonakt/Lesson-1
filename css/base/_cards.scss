@@ -196,19 +196,25 @@
         flex-direction: column;
         &__filter{
             display: flex;
-            left: 37%;
+            left: 40%;
             position: absolute;
             background: #FFFFFF;
             &__check{
-                width: 140px;
+                width: 145px;
                 font-size: 14px;
                 line-height: 17px;
                 color: #6F6E6E;
                 display: flex;
                 flex-direction: column;
-                padding: 5px;
+                padding: 0;
             }
 
+        }
+        &__filter summary{
+            padding: 0;
+        }
+        &__filter summary>i{
+            margin-left: 0;
         }
         &__cart{
             display: flex;
@@ -375,6 +381,9 @@
           .filter__checkbox__item3{
             margin-left: 107%;
             padding: 5px;
+          }
+          .card__info__block__border__custom__filter{
+              left: 28%;
           }
 
     }
