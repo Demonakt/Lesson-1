@@ -46,13 +46,13 @@
             &__btn{
                 background: none;
                 border: none;
-                & p{
+                &__span{
                     font-size: 16px;
                     line-height: 19px;
                     text-align: center;
                     color: #FFFFFF;
                 }
-                & span{
+                &__span_red{
                    color: #F16D7F;
                    font-size: 17px;
                    text-align: center;

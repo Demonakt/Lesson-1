@@ -312,14 +312,14 @@
   border: none;
 }
 
-.cat__card__item__overlay__btn p {
+.cat__card__item__overlay__btn__span {
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   color: #FFFFFF;
 }
 
-.cat__card__item__overlay__btn span {
+.cat__card__item__overlay__btn__span_red {
   color: #F16D7F;
   font-size: 17px;
   text-align: center;
@@ -856,9 +856,6 @@ details > summary {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: bottom;
-      -ms-flex-align: bottom;
-          align-items: bottom;
   margin-top: 17px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1579,7 +1576,7 @@ input[type="number"]::-webkit-inner-spin-button {
   margin-top: 20px;
 }
 
-.registration__input p {
+.registration__input button {
   font-weight: 300;
   font-size: 16px;
   line-height: 19px;
@@ -1587,7 +1584,7 @@ input[type="number"]::-webkit-inner-spin-button {
   max-width: 360px;
 }
 
-.registration__input p span {
+.registration__input button span {
   font-weight: 300;
   font-size: 13px;
   line-height: 16px;
@@ -1660,6 +1657,10 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .registration__text li:not(:last-child) {
   margin-bottom: 16px;
+}
+
+.fas {
+  margin-left: 10px;
 }
 
 @media (max-width: 375px) {
