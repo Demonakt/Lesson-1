@@ -33,6 +33,7 @@
     border: none;
     margin-top: -10px;
 }
+
 .fa-user, .fa-shopping-cart {
     font-size: 30px;
     margin-top: 0;
@@ -42,6 +43,16 @@
 .burger__logo{
     padding: 0;
     margin: 26px 33px 26px 0;
+    &__warning{
+        color: red;
+        position: absolute;
+        right: 63px;
+        top: 20px;
+        font-size: 20px;
+    }
+    &__cart{
+        position: relative;
+    }
 }
 .burger__input:hover{
     color: #F16D7F;
