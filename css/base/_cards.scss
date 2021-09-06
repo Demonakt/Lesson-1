@@ -129,7 +129,7 @@
             &__link{
                 text-decoration: none;
                 color: #000000;
-                padding: 12px 30px;
+                padding: 12px 10px;
                 }
             &__link:hover{
                 color: #F26376;
@@ -259,11 +259,10 @@
       height: 100px;
       align-items: center;
       &__block{
-          width: 340px;
+          width: 180px;
           padding: 12px;
           position: absolute;
           z-index: 1;
-          background: #FFFFFF;
           &__border{
               border-left: 5px solid #EF5B70;
               padding-right: 11px;
@@ -286,6 +285,8 @@
       &__block[open]{
         box-shadow: 0 0 15px 10px (rgb(228, 228, 228));
         transition: 1s;
+        background: #FFFFFF;
+        width: 340px;
       }
       &__block li{
           margin-bottom: 11px;
@@ -306,7 +307,6 @@
       }
       &__checkbox{
           display: flex;
-          align-items: bottom;
           margin-top: 17px;
           justify-content: center;
           width: 100%;
@@ -350,4 +350,58 @@
     }
     .filter [open]>summary {
         color: #EF5B70;
+    }
+    @media(max-width:1097px){
+        .catalog__card{
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
+    @media(max-width:768px){
+        .filter__checkbox{
+            margin-right: 10px;
+        }
+        .filter__checkbox> details{
+            width: 200px;
+        }
+        .filter__checkbox__item1{
+            margin-left: 75%;
+            padding: 5px;
+          }
+          .filter__checkbox__item2{
+            margin-left: 85%;
+            padding: 5px;
+          }
+          .filter__checkbox__item3{
+            margin-left: 107%;
+            padding: 5px;
+          }
+
+    }
+    @media(max-width:375px){
+        .catalog{
+            width: 97%;
+        }
+        .filter__block>summary span{
+            display: none;
+        }
+        .filter__block{
+            width: 50px;
+        }
+        .card__info__block__border__custom__filter{
+            left: 2%;
+            width: 105%;
+        }
+        .card__info__block__border__custom__filter__check{
+            padding: 0;
+        }
+        details > summary {
+            padding: 0;
+    }
+    .card__info p{
+        width: 100%;
+    }
+    .card__info__block__border__product{
+        width: 100%;
+    }
     }

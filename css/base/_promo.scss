@@ -25,3 +25,19 @@
         }
     }
 }
+@media(max-width:768px){
+    .promo{
+        height: 610px;
+        &__card{
+        flex-direction: column;
+        }
+    }
+}
+@media(max-width:375px){
+    .promo{
+        height: 610px;
+        &__card{
+        flex-direction: column;
+        }
+    }
+}
