@@ -1,0 +1,95 @@
+.intro{
+    background: #F1E4E6;
+    height: 764px;
+        &__block{
+            height: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            
+            background-image: url(../img/man-intro.png);
+            background-repeat: no-repeat;
+            background-position: -208px bottom;        
+            &__style{
+                max-width: 377px;
+                border-left: 12px solid #F16D7F;
+                padding-left: 16px;
+                &__text{
+                    color: #F16D7F;
+                }
+            }
+        }
+
+
+
+}
+.intro__cat{
+    height: 148px;
+    background-color: #F8F3F4;
+    &__block{
+        display: flex;
+        justify-content: space-between;    
+        &__text{
+            font-size: 24px;
+            line-height: 29px;
+            color: #F16D7F;
+            padding-top: 59px;
+        }
+        &__breadcrumbs{
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #000;
+            padding-top: 59px;
+            &__list{
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                &__item{
+                    display: inline-block;
+                    vertical-align: top;
+                    margin-right: 5px;
+                }
+                &__item:not(:last-child):after {
+                    content: "/";
+                    margin-left: 5px;
+                }
+            }
+            &__link{
+                color: #636363;
+                text-decoration: none;
+            }
+            &__link:not(span):hover {
+                text-decoration: underline;
+              }
+            &__link.current {
+                color: #F16D7F;
+            }
+        }
+    }
+}
+.intro__product{
+
+    display: flex;
+    justify-content: space-between;
+    background: #F7F7F7;
+    height: 777px;
+    align-items: center;
+        &__link__arrow{
+            text-decoration: none;
+            background: rgba(42, 42, 42, 0.15);
+            width: 47px;
+            height: 47px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 21px;
+        }
+        &__link__arrow:hover{
+            color: #F16D7F;
+        }
+        
+        &__img{
+            width: 90%;
+            margin-top: -100px;
+        }
+}

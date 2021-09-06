@@ -1,0 +1,152 @@
+.cart{
+    margin-top: 96px;
+    margin-bottom: 128px;
+    display: flex;
+    justify-content: space-between;
+    &__cards{
+        display: flex;
+        flex-direction: column;
+        
+        &__item{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 40px;
+            width: 652px;
+            height: 306px;
+            box-shadow: (17px 19px 24px rgba(0, 0, 0, 0.13));
+            &__img{
+                width: 40%;
+            }
+        }
+        &__button{
+            display: flex;
+            justify-content: space-between;
+        }
+        &__button button{
+            width: 235px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #ffffff;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 17px;
+            color: #222222;
+            border: 1px solid #A4A4A4;
+        }
+        &__button button:hover{
+            cursor: pointer;
+        }
+    }
+  &__description{
+    font-size: 24px;
+    line-height: 29px;
+    color: #222222;
+    padding: 22px;
+    &__text{
+        font-size: 22px;
+        line-height: 26px;
+        color: #575757;
+        padding-top: 22px;
+        padding-left: 22px;
+    }
+        &__text span{
+            color: #F16D7F;
+        }
+    }
+    &__form{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #222222;
+
+        &__input{
+            display: flex;
+            flex-direction: column;
+
+            &__item{
+                width: 360px;
+                height: 45px;
+                margin-top: 20px;
+                font-size: 16px;
+            }
+
+            }              
+            &__input button{
+                width: 100px;
+                height: 35px;
+                margin-top: 22px;
+                background: #ffffff;
+                border: 1px solid #A4A4A4;
+                font-size: 11px;
+                line-height: 13px;
+                }
+            &__input button:hover{
+                cursor: pointer;
+            }
+            &__result button{
+                width: 273px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: #F16D7F;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 19px;
+                color: #FFFFFF;
+                border: none;
+                margin-top: 20px;
+            }
+            &__result button:hover{
+                cursor: pointer;
+            }
+            &__result{
+                width: 360px;
+                height: 170px;
+                background: #F5F3F3;
+                margin-top: 60px;
+                padding: 40px;
+            &__centr{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            &__p1{
+                font-size: 11px;
+                line-height: 13px;
+                color: #4A4A4A;
+                text-align: right;
+            }
+            &__p1 span{
+                padding-left: 20px;
+            }
+            &__p2{
+                padding-top: 12px;
+                font-size: 16px;
+                line-height: 19px;
+                color: #222222;
+                text-align: right ;
+                margin-bottom: 21px;
+            }
+            &__p2 span{
+                color: #F16D7F;
+                padding-left: 20px;
+            }
+            
+            &__border{
+                
+                width: 275px;
+                border: 1px solid #E2E2E2;
+            }
+
+
+            
+
+    
+
+    }
+}
+}
